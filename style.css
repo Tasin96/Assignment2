@@ -3,12 +3,13 @@
    color: white;
 }
 #navLogo{
-    font-size: x-large;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
 #navLogo span{
-    color: pink;
+    color:red;
+    font-size: 30px;
 
 }
 
@@ -26,10 +27,11 @@
 text-decoration: none;   
 }
 #navBtn{
-    background-color: pink;
+    background-color:red;
     font-size: 16px;
     border-radius: 10px;
     color: white;
+    padding: 10px 8px;
 
 }
 
@@ -40,13 +42,20 @@ text-decoration: none;
     justify-content: space-around;
 }
 #banner img{
-    box-shadow: 10px 20px 25px 10px gray;
-    margin-top: 20px;
+        margin-top: 20px;
 }
 #banner h2{
     font-weight:600;
     font-size: 48px;
+   
 }
 #banner h2 span{
     color: red;
+}
+#banner button{
+    border-radius: 10px;
+    padding: 10px 8px;
+    font-weight: 500;
+    background-color: red;
+    color: white;
 }
