@@ -6,6 +6,7 @@
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
+    font-style: italic;
 }
 #navLogo span{
     color:red;
@@ -58,4 +59,46 @@ text-decoration: none;
     font-weight: 500;
     background-color: red;
     color: white;
+}
+
+/* about me section */
+.aboutMe{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+#aboutSection p{
+    color: black;
+    font-size: 20px;
+}
+#aboutSection{
+    display: flex;
+    gap: 100px;
+    padding: 25px;
+    align-items: center;
+    background-color:lightgray;
+}
+.serviceCard{
+    border: 2px solid red;
+    box-shadow: 10px 10px 5px red;
+    border-radius: 10px;
+}
+.serviceCard h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+.serviceCard p{
+    font-size: 20px;
+    text-align: center;
+   
+}
+#service{
+    display: flex;
+    gap: 20px;
+   
 }
