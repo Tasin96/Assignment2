@@ -97,8 +97,36 @@ text-decoration: none;
     text-align: center;
    
 }
+.serviceCard button{
+    background-color:red;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 8px;
+}
 #service{
     display: flex;
     gap: 20px;
    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btn2{
+    background-color:red;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 8px;
+}
+
+#moreInfo{
+    height: 300px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
