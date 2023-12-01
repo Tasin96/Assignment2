@@ -1,6 +1,8 @@
 #body{
    background-color: black;
    color: white;
+   max-width: 1400px;
+   margin: 0 auto;
 }
 #navLogo{
     font-size: 25px;
